@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var skillAnimation = false;
 	var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
-	var percentages = [70, 70, 60, 70, 60, 70, 60, 80, 70, 50, 50, 40, 70];
+	var percentages = [70, 70, 60, 70, 60, 70, 60, 80, 70, 80, 50, 90, 70];
 	var lastHeight = 0;
 
     $("header > ul > li > a").click(function(evt){
